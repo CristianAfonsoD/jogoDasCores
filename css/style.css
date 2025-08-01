@@ -1,0 +1,49 @@
+body{
+    font: 15pt Arial;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quadroPrincipal{
+    text-align: center;
+}
+input{
+    padding: 4px;
+    font-size: 10pt;
+}
+button{
+    padding: 4px 8px;
+    margin: 4px;
+    font-size: 10pt;
+}
+.informacoes{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.grade{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 1rem;
+    justify-content: center;
+}
+.botao-cor {
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.amarelo { background-color: #facc15; }
+.azul    { background-color: #3b82f6; }
+.vermelho{ background-color: #ef4444; }
+.verde   { background-color: #22c55e; }
+.preto   { background-color: #000000; }
+.cinza   { background-color: #6b7280; }
+
+.oculto {
+  display: none;
+}

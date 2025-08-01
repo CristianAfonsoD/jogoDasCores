@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo das Cores</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="quadroPrincipal">
+        <h1>Jogo das Cores</h1>
+
+        <div id="inicio">
+            <input type="text" id="nome-jogador" placeholder="Digite seu nome">
+            <button id="btn-jogar">Jogar</button>
+        </div>
+
+        <div id="jogo" class="oculto">
+            <div class="informacoes">
+                <span id="mostrar-cor">Cor: </span>
+                <span id="pontuacao">Pontos: 0</span>
+                <span id="tempo">Tempo: 30s</span>
+            </div>
+            <div class="grade" id="botoes-container"></div>
+        </div>
+
+        <div id="fim" class="oculto">
+            <h2>FIM DO JOGO!</h2>
+            <p id="resultado-final"></p>
+            <button id="jogar-novamente">Jogar Novamente</button>
+        </div>
+
+        <script src="js/script.js"></script>
+
+    </div>
+</body>
+</html>
