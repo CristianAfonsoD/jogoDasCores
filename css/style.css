@@ -47,3 +47,16 @@ button{
 .oculto {
   display: none;
 }
+
+#ranking {
+    margin-top: 2rem;
+    text-align: center;
+}
+#lista-ranking {
+    list-style: decimal;
+    padding: 0;
+}
+#lista-ranking li {
+    font-size: 1rem;
+    margin: 4px 0;
+}
