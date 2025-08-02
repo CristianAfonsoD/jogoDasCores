@@ -44,3 +44,8 @@ Este é um jogo de memória visual baseado em reconhecimento de cores. A versão
 1. [W3scholss](https://www.w3schools.com/js/js_htmldom.asp)
 2. https://arthurporto.notion.site/08-Javascript-DOM-22e06b94b9cb806bbe35fefaf11bad29
 3. Lógica de embaralhamento: Math.random() com sort()
+
+---
+
+# Link do Jogo
+ - https://jogo-das-cores-ten.vercel.app/
